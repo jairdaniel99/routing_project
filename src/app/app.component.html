@@ -1,14 +1,2 @@
-<h1>
-  {{ title }}
-  <h1>
-    <nav>
-      <a routerLink="/home">Home</a>
-      <br />
-      <a routerLink="/students">Students</a>
-      <br />
-      <a routerLink="/teachers">Teachers</a>
-    </nav>
-    <!-- Router outlet ensures the correct component is loaded in based on the page URL -->
-    <router-outlet />
-  </h1>
-</h1>
+<app-navbar></app-navbar>
+<router-outlet />
